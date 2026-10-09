@@ -1,0 +1,32 @@
+{
+  "name": "maimen-butler",
+  "version": "1.2.0",
+  "description": "麦门全能管家——基于麦当劳中国官方 MCP 的一站式助手（省钱·点餐·白嫖日历）",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "tools": "node scripts/mcd.mjs tools",
+    "account": "node scripts/mcd.mjs account",
+    "deals": "node scripts/mcd.mjs deals",
+    "calendar": "node scripts/mcd.mjs calendar",
+    "patrol": "node scripts/patrol.mjs",
+    "compare": "node scripts/compare.mjs",
+    "bigmac": "node scripts/bigmac-index.mjs"
+  },
+  "keywords": [
+    "mcdonalds",
+    "mcp",
+    "model-context-protocol",
+    "skill",
+    "maimen",
+    "麦当劳",
+    "麦门"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/07liu/maimen-butler.git"
+  }
+}

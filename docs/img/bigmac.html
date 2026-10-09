@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: transparent; font-family: "Cascadia Code", "Consolas", "Microsoft YaHei Mono", monospace; padding: 14px; width: 790px; }
+  .panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 22px 26px; box-shadow: 0 12px 40px rgba(0,0,0,.5); }
+  h1 { color: #e6edf3; font-size: 20px; margin-bottom: 4px; }
+  .sub { color: #8b949e; font-size: 12.5px; margin-bottom: 18px; }
+  .row { display: grid; grid-template-columns: 118px 1fr 150px; align-items: center; gap: 10px; margin: 9px 0; }
+  .city { color: #c9d1d9; font-size: 14px; text-align: right; }
+  .city small { color: #8b949e; font-size: 11px; }
+  .track { background: #21262d; border-radius: 6px; height: 24px; overflow: hidden; }
+  .bar { height: 100%; border-radius: 6px; background: linear-gradient(90deg, #1f6feb, #79c0ff); }
+  .bar.max { background: linear-gradient(90deg, #b62324, #f85149); }
+  .bar.min { background: linear-gradient(90deg, #1a7f37, #3fb950); }
+  .val { color: #ffa657; font-weight: bold; font-size: 14px; }
+  .val small { color: #8b949e; font-weight: normal; }
+  .badge { display: inline-block; margin-left: 6px; font-size: 11px; color: #f85149; border: 1px solid #f85149; border-radius: 4px; padding: 0 5px; }
+  .badge2 { display: inline-block; margin-left: 6px; font-size: 11px; color: #3fb950; border: 1px solid #3fb950; border-radius: 4px; padding: 0 5px; }
+  .foot { margin-top: 16px; color: #8b949e; font-size: 12px; line-height: 1.7; border-top: 1px solid #21262d; padding-top: 10px; }
+</style>
+</head>
+<body>
+<div class="panel" id="panel">
+  <h1>🍔 巨无霸指数 · MaiMen Big Mac Index</h1>
+  <div class="sub">2026-10-09 · 麦当劳官方 MCP calculate-price 实时核价 · 8 城市中心门店 · 巨无霸单品</div>
+
+  <div class="row"><div class="city">杭州 <small>灵隐景区</small></div><div class="track"><div class="bar max" style="width:100%"></div></div><div class="val">¥29.00 <small>1.137</small><span class="badge">景区溢价</span></div></div>
+  <div class="row"><div class="city">北京 <small>王府井</small></div><div class="track"><div class="bar" style="width:91.4%"></div></div><div class="val">¥26.50 <small>1.039</small></div></div>
+  <div class="row"><div class="city">武汉 <small>江汉路</small></div><div class="track"><div class="bar" style="width:91.4%"></div></div><div class="val">¥26.50 <small>1.039</small></div></div>
+  <div class="row"><div class="city">西安 <small>钟楼</small></div><div class="track"><div class="bar" style="width:91.4%"></div></div><div class="val">¥26.50 <small>1.039</small></div></div>
+  <div class="row"><div class="city">成都 <small>春熙路</small></div><div class="track"><div class="bar" style="width:89.7%"></div></div><div class="val">¥26.00 <small>1.020</small></div></div>
+  <div class="row"><div class="city">上海 <small>人民广场</small></div><div class="track"><div class="bar min" style="width:88%"></div></div><div class="val">¥25.50 <small>1.000</small><span class="badge2">基准</span></div></div>
+  <div class="row"><div class="city">广州 <small>北京路</small></div><div class="track"><div class="bar min" style="width:88%"></div></div><div class="val">¥25.50 <small>1.000</small></div></div>
+  <div class="row"><div class="city">深圳 <small>华强北</small></div><div class="track"><div class="bar min" style="width:88%"></div></div><div class="val">¥25.50 <small>1.000</small></div></div>
+
+  <div class="foot">均价 ¥26.38 ｜ 最高与最低价差 ¥3.50（13.7%）｜ 价格随门店/时段/活动波动，仅供参考<br>数据由 <span style="color:#79c0ff">scripts/bigmac-index.mjs</span> 调用麦当劳官方 MCP 自动采集</div>
+</div>
+</body>
+</html>

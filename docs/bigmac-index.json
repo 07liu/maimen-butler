@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-10-09T08:08:42.252Z",
+  "source": "麦当劳官方 MCP calculate-price 实时核价（到店自取，巨无霸单品）",
+  "disclaimer": "价格随门店/时段/活动波动，仅供参考，不代表官方定价",
+  "rows": [
+    {
+      "city": "北京",
+      "keyword": "王府井",
+      "store": "麦当劳北京新东安二号餐厅",
+      "price": 26.5,
+      "note": "",
+      "index": 1.039,
+      "vsAvg": 0.13
+    },
+    {
+      "city": "上海",
+      "keyword": "人民广场",
+      "store": "麦当劳上海黄浦华旭国际大厦餐厅",
+      "price": 25.5,
+      "note": "",
+      "index": 1,
+      "vsAvg": -0.88
+    },
+    {
+      "city": "广州",
+      "keyword": "北京路",
+      "store": "麦当劳广州沿江中路天字广场餐厅",
+      "price": 25.5,
+      "note": "",
+      "index": 1,
+      "vsAvg": -0.88
+    },
+    {
+      "city": "深圳",
+      "keyword": "华强北",
+      "store": "麦当劳深圳华强北茂业餐厅",
+      "price": 25.5,
+      "note": "",
+      "index": 1,
+      "vsAvg": -0.88
+    },
+    {
+      "city": "成都",
+      "keyword": "春熙路",
+      "store": "麦当劳成都锦江区联升巷(京都大厦)餐厅",
+      "price": 26,
+      "note": "",
+      "index": 1.02,
+      "vsAvg": -0.38
+    },
+    {
+      "city": "杭州",
+      "keyword": "西湖",
+      "store": "麦当劳杭州灵隐景区餐厅",
+      "price": 29,
+      "note": "",
+      "index": 1.137,
+      "vsAvg": 2.63
+    },
+    {
+      "city": "武汉",
+      "keyword": "江汉路",
+      "store": "麦当劳武汉HAPPY站台餐厅(江汉路地铁H出口)",
+      "price": 26.5,
+      "note": "",
+      "index": 1.039,
+      "vsAvg": 0.13
+    },
+    {
+      "city": "西安",
+      "keyword": "钟楼",
+      "store": "麦当劳西安开元餐厅",
+      "price": 26.5,
+      "note": "",
+      "index": 1.039,
+      "vsAvg": 0.13
+    }
+  ]
+}

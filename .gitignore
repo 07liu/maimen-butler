@@ -1,0 +1,13 @@
+# 真实 Token / 密钥一律不入库（参赛声明之信息安全声明）
+.env
+.env.*
+mcp-config.json
+
+# 运行产物
+*.log
+node_modules/
+__pycache__/
+
+# 系统文件
+.DS_Store
+Thumbs.db
